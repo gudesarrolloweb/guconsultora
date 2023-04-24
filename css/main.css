@@ -170,7 +170,12 @@ header {
             "productos"
             "contacto"
     }
-
+    .productosinicio {
+        background-color: rgb(255, 255, 255);
+    }
+    .contactoinicio {
+        background-color: rgb(227, 227, 227);
+    }
     .logosyhppal,
     .logosyh {
         width: 3rem;
