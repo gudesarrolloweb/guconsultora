@@ -1,0 +1,178 @@
+/**********Logo navbar**********/
+.gu {
+    width: 9rem;
+}
+.navbar-custom {
+    background-color: black;
+}
+/**********Texto**********/
+
+.textogusyh {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+/**********Color de fondo**********/
+body {
+    background-color: rgb(227, 227, 227);
+    background-repeat: unset;
+}
+
+.fondoblancotitulo {
+    background-color: rgb(255, 255, 255);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.fondoblancoparrafo {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 2rem;
+    display: block;
+    width: 100%;
+}
+
+.imgepp {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.imglogosyh {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/**********Párrafos**********/
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+/**********imginicio********/
+.imginicio {
+    display: flex;
+    justify-content: center;
+}
+
+/**********Nosotros**********/
+
+
+.imgnosotrossyso{
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.fondoceleste {
+    background-color: rgb(227, 227, 227);
+}
+
+.fondonegro {
+    background-color: rgb(0, 0, 0);
+}
+
+.itemsnosotros {
+    margin-top: 1.5rem;
+}
+
+
+
+.row {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+/*********Servicios***********/
+.escritos {
+    background-color: rgb(255, 255, 255);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.imgriesgoslaborales {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.videoservicios {
+width: 80%;
+height: 20rem;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.textovideo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: black;
+}
+
+.colorsearchblanco {
+    border-color: white;
+    color: white;
+}
+
+/*****************productos*****************/
+.escritos {
+    background-color: rgb(255, 255, 255);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.titulogu {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titulogusyh {
+    font-size: 2rem;
+}
+.titulogusyh,
+.textogusyh {
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.productos {
+    background-color: #ffffff;
+    box-sizing: content-box;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin-block: 1.5rem;
+    text-align: center;
+    background-position: center;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.productos__boton a{
+    color:white;
+}
+.productos__imagen {
+    width: 16rem;
+}
+.productos__titulo {
+    font-size: 16px;
+}
+.productos__boton {
+    background-color: #000000;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+}

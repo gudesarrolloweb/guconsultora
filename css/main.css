@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/***************Inicio***************/
+.syso {
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    /* viewport height */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "logo nosotros servicios"
+        "logo productos contacto"
+}
+
+.logoinicio {
+    background-color: black;
+    grid-area: logo;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.logoinicio:hover {
+    background-color: darkslategray;
+    transition: background-color 1s;
+}
+
+.nosotrosinicio:hover,
+.contactoinicio:hover {
+    background-color: lightblue;
+    transition: background-color 1s;
+}
+
+.serviciosinicio:hover,
+.productosinicio:hover {
+    background-color: rgba(79, 79, 255, 0.623);
+    transition: background-color 1s;
+}
+
+.nosotrosinicio {
+    background-color: rgb(255, 255, 255);
+    grid-area: nosotros;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.serviciosinicio {
+    background-color: rgb(227, 227, 227);
+    grid-area: servicios;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.productosinicio {
+    background-color: rgb(227, 227, 227);
+    grid-area: productos;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.contactoinicio {
+    background-color: rgb(255, 255, 255);
+    grid-area: contacto;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.logoinicio {
+    background-color: black;
+    grid-area: logo;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.logosyhppal {
+    width: 100%
+}
+
+.logosyh {
+    width: 7rem;
+    margin-right: 2rem;
+}
+
+.textolink {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+/******************Navar*******************/
+.navbar {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+header {
+    background-color: #000000;
+    display: flex;
+    gap: 2rem;
+    grid-gap: 2rem;
+}
+
+.gu {
+    width: 9rem;
+}
+
+@media screen and (max-width: 969px) {
+    .syso {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+            "logo logo"
+            "nosotros servicios"
+            "productos contacto"
+    }
+
+    .logosyhppal,
+    .logosyh {
+        width: 5rem;
+    }
+
+    .textolink {
+        font-size: 1.5rem;
+        padding: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 489px) {
+    .syso {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "logo"
+            "nosotros"
+            "servicios"
+            "productos"
+            "contacto"
+    }
+
+    .logosyhppal,
+    .logosyh {
+        width: 3rem;
+    }
+}
+
+/***************Footer************/
+footer {
+    background-color: black;
+}
+
+.marginright {
+    margin-right: 0.5rem;
+}
+
+/**********Texto**********/
+.textogusyh {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+/**********Color de fondo**********/
+body {
+    background-color: rgb(227, 227, 227);
+    background-repeat: unset;
+}
+
+.fondoblancotitulo {
+    background-color: rgb(255, 255, 255);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.fondoblancoparrafo {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 2rem;
+    display: block;
+    width: 100%;
+}
+
+.imgepp {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/**********Párrafos**********/
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+/**********imginicio********/
+.imginicio {
+    display: flex;
+    justify-content: center;
+}
+
+/**********Nosotros**********/
+.fondonegro {
+    background-color: rgb(0, 0, 0);
+}
+
+.itemsnosotros {
+    margin-top: 1.5rem;
+}
+
+.row {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+
+/*********Servicios***********/
+.colorsearchblanco {
+    border-color: white;
+    color: white;
+}
+
+.videoservicios {
+    width: 80%;
+    height: 20rem;
+    display: block;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.textovideo {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    grid-template-areas:
+        "mqtexto" "mqvideo"
+}
+
+.galeriatexto {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    grid-area: mqtexto;
+    margin-right: 4.094rem;
+    margin-left: 4.094rem;
+    padding: 4rem;
+}
+
+.galeriavideo {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    grid-area: mqvideo;
+
+}
+
+@media screen and (max-width: 991px) {
+    .galeria {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .galeriatexto {
+        margin-right: 6.25rem;
+        margin-left: 6.25rem;
+    }
+
+    .galeriavideo {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .galeria {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .galeriatexto {
+        margin-right: 3.5rem;
+        margin-left: 3.5rem;
+    }
+
+    .galeriavideo {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 483px) {
+    .galeria {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .galeriatexto {
+        margin-right: 3rem;
+        margin-left: 3rem;
+        padding: 2rem;
+    }
+
+    .galeriavideo {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/*****************productos*****************/
+.titulogu {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulogusyh {
+    font-size: 2rem;
+}
+
+.titulogusyh,
+.textogusyh {
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tarjetitas {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+/***********contacto***********/
+.mapaoficina {
+    max-width: 100%;
+}
