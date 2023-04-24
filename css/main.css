@@ -158,7 +158,7 @@ header {
     }
 }
 
-@media screen and (max-width: 489px) {
+@media screen and (max-width: 490px) {
     .syso {
         display: grid;
         grid-template-columns: 1fr;
@@ -174,15 +174,18 @@ header {
     .productosinicio {
         background-color: rgb(255, 255, 255);
     }
+
     .contactoinicio {
         background-color: rgb(227, 227, 227);
     }
+
     .textolink {
         text-decoration: none;
         color: black;
         font-weight: 600;
         font-size: 1.3rem;
     }
+
     .logosyhppal,
     .logosyh {
         width: 3rem;
@@ -305,7 +308,6 @@ p {
     justify-content: center;
     align-content: center;
     grid-area: mqvideo;
-
 }
 
 @media screen and (max-width: 991px) {
@@ -384,6 +386,7 @@ p {
     margin-right: auto;
     margin-left: auto;
 }
+
 /***********contacto***********/
 .mapaoficina {
     max-width: 100%;
