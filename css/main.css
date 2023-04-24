@@ -170,11 +170,18 @@ header {
             "productos"
             "contacto"
     }
+
     .productosinicio {
         background-color: rgb(255, 255, 255);
     }
     .contactoinicio {
         background-color: rgb(227, 227, 227);
+    }
+    .textolink {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        font-size: 1.3rem;
     }
     .logosyhppal,
     .logosyh {
