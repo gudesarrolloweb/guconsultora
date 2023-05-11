@@ -1,0 +1,55 @@
+body {
+    background-color: $firstColor;
+    background-repeat: unset;
+
+    .titulogu {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+        p {
+            margin-top: 0;
+            margin-bottom: 0rem;
+
+            .itemsnosotros {
+                margin-top: 1.5rem;
+            }
+        }
+
+        .textogusyh {
+            margin-bottom: 0.5rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .fondoblancotitulo {
+        background-color: $secondColor;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        .logoguseguridadehigiene {
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            height: 17rem;
+        }
+
+        .fondonegro {
+            background-color: $thirdColor;
+        }
+    }
+    .misionvision {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    grid-template-areas:
+        "mqtexto" "mqvideo";
+
+    .galeriatexto {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        grid-area: mqtexto;
+        margin-right: 4.094rem;
+        margin-left: 4.094rem;
+        padding: 4rem;
+
+        .estilotextoblanco {
+            color: $secondColor;
+        }
+    }
+
+    .galeriavideo {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        grid-area: mqvideo;
+    }
+    .videoservicios {
+        width: 80%;
+        height: 20rem;
+        display: block;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+}

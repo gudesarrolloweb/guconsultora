@@ -1,0 +1,14 @@
+footer {
+    background-color: $thirdColor;
+
+    .row {
+        --bs-gutter-x: 0;
+        --bs-gutter-y: 0;
+
+        .pie {
+            :hover {
+                background: $firstColor;
+            }
+        }
+    }
+}

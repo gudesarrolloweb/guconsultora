@@ -1,0 +1,37 @@
+.listaservicios {
+    padding: 2rem;
+    display: flex;
+
+    .columnaservicios {
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+        width: 33.333333333%;
+
+        .consultoriatecnica,
+        .tramitesygestiones,
+        .medicionesambientales {
+            @extend %listitatitulo;
+
+            .centrar {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                padding: 1rem;
+            }
+            .estilotextoblanco {
+                color: $secondColor;
+            }
+        }
+
+        .consultoriatexto,
+        .tramitestexto,
+        .medicionestexto {
+            @extend %listitatexto;
+
+            .itemslista {
+                list-style: none;
+            }
+        }
+    }
+}
+

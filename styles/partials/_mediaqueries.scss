@@ -1,0 +1,317 @@
+@media screen and (max-width: 991px) {
+
+    /******************************* LISTA DE SERVICIOS *******************************/
+    .listaservicios {
+        justify-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+
+        .columnaservicios {
+            margin-right: auto;
+            margin-left: auto;
+            border: 0.1rem solid $thirdColor;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas:
+                "consultoriatecnica consultoriatexto consultoriatexto "
+                "tramitesygestiones tramitestexto tramitestexto"
+                "medicionesambientales medicionestexto medicionestexto";
+
+            .consultoriatecnica {
+                grid-area: consultoriatecnica;
+                display: grid;
+                justify-items: center;
+                align-items: center;
+                justify-content: center;
+                align-content: center;
+            }
+
+            .consultoriatexto {
+                border-left: 0.1rem solid $secondColor;
+                grid-area: consultoriatexto;
+                display: grid;
+            }
+
+            .tramitesygestiones {
+                grid-area: tramitesygestiones;
+                display: grid;
+                justify-items: center;
+                align-items: center;
+                justify-content: center;
+                align-content: center;
+            }
+
+            .tramitestexto {
+                border-left: 0.1rem solid $secondColor;
+                grid-area: tramitestexto;
+                display: grid;
+            }
+
+            .medicionesambientales {
+                grid-area: medicionesambientales;
+                display: grid;
+                justify-items: center;
+                align-items: center;
+                justify-content: center;
+                align-content: center;
+            }
+
+            .medicionestexto {
+                border-left: 0.1rem solid $secondColor;
+                grid-area: medicionestexto;
+                display: grid;
+            }
+        }
+    }
+
+    /******************************* GALERIA DE SERVICIOS *******************************/
+    .galeria {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        .galeriatexto {
+            margin-right: 6.25rem;
+            margin-left: 6.25rem;
+        }
+
+        .galeriavideo {
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+
+    /******************************* MAPA Y DE CONTACTOS *******************************/
+    .formulariocontacto {
+        margin-right: 1.25rem;
+        margin-left: 1.25rem;
+        width: 100%;
+    }
+
+    .mapaubicacion {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .mapaoficina {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    /******************************* LISTA DE SERVICIOS *******************************/
+    .listaservicios {
+        justify-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+
+        .columnaservicios {
+            margin-right: auto;
+            margin-left: auto;
+            border: 0.1rem solid $thirdColor;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-areas:
+                "consultoriatecnica"
+                "consultoriatexto"
+                "tramitesygestiones"
+                "tramitestexto"
+                "medicionesambientales"
+                "medicionestexto";
+
+            .consultoriatecnica {
+                grid-area: consultoriatecnica;
+                display: grid;
+                justify-items: center;
+                align-items: center;
+                justify-content: center;
+                align-content: center;
+            }
+
+            .consultoriatexto {
+                border-left: 0.1rem solid $secondColor;
+                grid-area: consultoriatexto;
+                display: grid;
+            }
+
+            .tramitesygestiones {
+                grid-area: tramitesygestiones;
+                display: grid;
+                justify-items: center;
+                align-items: center;
+                justify-content: center;
+                align-content: center;
+            }
+
+            .tramitestexto {
+                border-left: 0.1rem solid $secondColor;
+                grid-area: tramitestexto;
+                display: grid;
+            }
+
+            .medicionesambientales {
+                grid-area: medicionesambientales;
+                display: grid;
+                justify-items: center;
+                align-items: center;
+                justify-content: center;
+                align-content: center;
+            }
+
+            .medicionestexto {
+                border-left: 0.1rem solid $secondColor;
+                grid-area: medicionestexto;
+                display: grid;
+            }
+        }
+    }
+
+    /******************************* GALERIA DE SERVICIOS *******************************/
+    .galeria {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        .galeriatexto {
+            margin-right: 3.5rem;
+            margin-left: 3.5rem;
+        }
+
+        .galeriavideo {
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+
+    /******************************* MAPA Y FORMULARIO DE CONTACTOS *******************************/
+    .formulariocontacto {
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+
+    .mapaubicacion {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .mapaoficina {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    /******************************* NAVBAR *******************************/
+    header {
+        display: grid;
+
+        .navbar {
+            display: grid;
+            flex: 0;
+
+            .gu {
+                height: 3rem;
+                margin-left: 0.2rem;
+            }
+
+            .menu {
+                grid-area: menu;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                grid-template-areas:
+                    "nosotros servicios "
+                    "productos contacto ";
+
+                .inicioinicio {
+                    display: none
+                }
+
+                .nosotrosinicio {
+                    grid-area: nosotros;
+                    display: grid;
+                    justify-items: center;
+                    align-items: center;
+                    justify-content: center;
+                    align-content: center;
+                }
+
+                .serviciosinicio {
+                    grid-area: servicios;
+                    display: grid;
+                    justify-items: center;
+                    align-items: center;
+                    justify-content: center;
+                    align-content: center;
+                }
+
+                .productosinicio {
+                    grid-area: productos;
+                    display: grid;
+                    justify-items: center;
+                    align-items: center;
+                    justify-content: center;
+                    align-content: center;
+                }
+
+                .contactoinicio {
+                    grid-area: contacto;
+                    display: grid;
+                    justify-items: center;
+                    align-items: center;
+                    justify-content: center;
+                    align-content: center;
+                }
+            }
+        }
+
+        .syso {
+            justify-content: center;
+            text-align: center;
+            display: grid;
+            grid-template-columns: 1r 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas:
+                "logo menu menu"
+                "logo menu menu";
+
+            .logoinicio {
+                grid-area: logo;
+                display: grid;
+                justify-items: center;
+                align-items: center;
+                justify-content: center;
+                align-content: center;
+            }
+        }
+    }
+
+/******************************* GALERIA DE SERVICIOS *******************************/
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    .galeriatexto {
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+        padding: 1.5rem;
+    }
+
+    .galeriavideo {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+}

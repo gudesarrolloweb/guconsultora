@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+
+$fontNunito: 'Nunito', sans-serif;
+
+$firstColor: #c0c0c0a9;
+$secondColor: #ffffff;
+$thirdColor: #000000;
+
+%listitatitulo {
+    padding: 1rem;
+            background-color: $thirdColor;
+}
+%listitatexto {
+    padding: 1rem;
+    background-color: $secondColor;
+}

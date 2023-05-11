@@ -1,0 +1,65 @@
+header {
+    background-color: $thirdColor;
+    display: flex;
+    gap: 2rem;
+    grid-gap: 2rem;
+
+    .navbar {
+        animation: slide-in-fwd-center .4s cubic-bezier(.25, .46, .45, .94) both;
+        align-items: center;
+        display: flex;
+        flex: 1;
+        position: relative;
+        justify-content: space-evenly;
+
+        .gu {
+            height: 6rem;
+            margin-left: 0.8rem;
+        }
+
+        .menu {
+            display: flex;
+            flex: 1;
+            position: relative;
+            justify-content: space-evenly;
+            list-style-type: none;
+            gap: 1rem;
+            grid-gap: 1rem;
+            align-items: center;
+            padding-block: 1rem;
+            top: 0;
+            width: 100%;
+
+            .menu_item {
+                a {
+                    color: $secondColor;
+                    text-decoration: none;
+                    font-size: larger;
+
+                    &:hover {
+                        background: $firstColor;
+                    }
+                }
+
+            }
+        }
+
+        @keyframes slide-in-fwd-center {
+            0% {
+                transform: translateZ(-1400px);
+                opacity: 0
+            }
+
+            100% {
+                transform: translateZ(0);
+                opacity: 1
+            }
+        }
+    }
+
+    @for $item from 1 through 5 {
+        .menu_item:nth-child(#{$item}) {
+            animation-delay: $item*0.1s;
+        }
+    }
+}

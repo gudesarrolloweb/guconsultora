@@ -6,27 +6,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GU - Inicio</title>
+    <meta name="description" content="Consultora de Seguridad e Higiene">
+    <meta name="keywords"
+        content="Consultora, Seguridad, Higiene, Construcción, Industria, EPP, Calzado, Ropa de trabajo, Detector, Protección, Señalización">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="wow/animate.css">
 </head>
 
+
 <body>
+    <header>
+        <nav class="navbar syso">
+            <a class="logoinicio" href="../index.html"><img class="gu wow fadeInDown" src="../img/gu.png" alt="gu"></a>
+            <ul class="menu">
+                <li class="inicioinicio menu_item active wow fadeInLeft"><a href="./index.html">Inicio</a></li>
+                <li class="nosotrosinicio menu_item wow fadeInLeft"><a href="./pages/nosotros.html">Nosotros</a></li>
+                <li class="serviciosinicio menu_item wow fadeInLeft"><a href="./pages/servicios.html">Servicios</a></li>
+                <li class="productosinicio menu_item wow fadeInLeft"><a href="./pages/productos.html">Productos</a></li>
+                <li class="contactoinicio menu_item wow fadeInLeft"><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <div class="syso">
-    
-            <div class="logoinicio"><a href="./index.html"><img class="logosyhppal" src="./img/gu.png" alt="inicio"></a></div>
-    
-            <div class="nosotrosinicio"><a class="textolink" href="./pages/nosotros.html"><img class="logosyh" src="./img/logo nosotros.png" alt="nosotros">Nosotros</a></div>
-    
-            <div class="serviciosinicio"><a class="textolink" href="./pages/servicios.html"><img class="logosyh" src="./img/logo lista.png" alt="servicios">Servicios</a></div>
-    
-            <div class="productosinicio"><a class="textolink" href="./pages/productos.html"><img class="logosyh" src="./img/logo productos.png" alt="productos">Productos</a></div>
-    
-            <div class="contactoinicio"><a class="textolink" href="./pages/contacto.html"><img class="logosyh" src="./img/logo contacto.png" alt="contacto">Contacto</a></div>
-    
+        <section class="titulogu d-flex justify-content-center align-items-center fondoblancotitulo">
+            <h3>GU Consultora en Prevención de Accidentes Laborales</h3>
+        </section>
+        <section class="titulogu d-flex justify-content-center align-items-center m-4">
+            <p> Brinda servicios especializados a
+                través de sus dos unidades de negocio en las
+                áreas de: SHyMA (Seguridad,Higiene y Medioambiente) y Mantenimiento e Instalaciones.</p>
+        </section>
+        <div class="fondoblancotitulo">
+            <img class="logoguseguridadehigiene" src="./img/logoguseguridadehigiene.png"
+                alt="logoseguridadehigiene"></a>
         </div>
+        <section class="titulogu d-flex justify-content-center align-items-center m-4">
+            <p>Somos un equipo de ingenieros y técnicos comprometidos a involucrarnos con la
+                dinámica, los procesos y filosofía de cada cliente, con ética y profesionalismo, buscando siempre
+                superarnos y aprovechando cada oportunidad para brindar lo mejor de nosotros.</p>
+            </p>
+        </section>
     </main>
-    </body>
-    </html>
+    <footer class="text-light p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="d-flex pie wow flash justify-content-evenly px-5">
+                        <a href="https://www.instagram.com/lic.seguridadehigiene?igshid=YmMyMTA2M2Y=/"
+                            class="text-light"><i class="bi bi-instagram marginright"></i>Instagram</a>
+                        <a href="https://wa.me/1132611289" class="text-light"><i
+                                class="bi bi-whatsapp marginright"></i>Whatsapp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="wow/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
