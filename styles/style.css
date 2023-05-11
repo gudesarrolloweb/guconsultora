@@ -21,11 +21,11 @@
 }
 *::-moz-selection {
   background-color: #000000;
-  color: rgba(192, 192, 192, 0.662745098);
+  color: rgba(174, 202, 201, 0.4392156863);
 }
 *::selection {
   background-color: #000000;
-  color: rgba(192, 192, 192, 0.662745098);
+  color: rgba(174, 202, 201, 0.4392156863);
 }
 
 header {
@@ -65,7 +65,7 @@ header .navbar .menu .menu_item a {
   font-size: larger;
 }
 header .navbar .menu .menu_item a:hover {
-  background: rgba(192, 192, 192, 0.662745098);
+  background: rgba(174, 202, 201, 0.4392156863);
 }
 @keyframes slide-in-fwd-center {
   0% {
@@ -94,7 +94,7 @@ header .menu_item:nth-child(5) {
 }
 
 body {
-  background-color: rgba(192, 192, 192, 0.662745098);
+  background-color: rgba(174, 202, 201, 0.4392156863);
   background-repeat: unset;
 }
 body .titulogu {
@@ -144,7 +144,7 @@ footer .row {
   --bs-gutter-y: 0;
 }
 footer .row .pie :hover {
-  background: rgba(192, 192, 192, 0.662745098);
+  background: rgba(174, 202, 201, 0.4392156863);
 }
 
 .listaservicios {
