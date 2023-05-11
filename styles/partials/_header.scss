@@ -1,5 +1,5 @@
 header {
-    background-color: $thirdColor;
+    background-color: $fourthColor;
     display: flex;
     gap: 2rem;
     grid-gap: 2rem;
@@ -62,4 +62,131 @@ header {
             animation-delay: $item*0.1s;
         }
     }
+}
+
+.iconospng {
+    height: 6rem;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.grilla {
+    background-color: $fifthColor;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "A1 B1 B1 B1"
+    "B2 B2 B2 A2"
+    "A3 B3 B3 B3"
+    "B4 B4 B4 A4"
+    "A5 B5 B5 B5"
+    "B6 B6 B6 A6"
+    "A7 B7 B7 B7"
+    "B8 B8 B8 A8"
+
+}
+
+.A1 {
+    grid-area: A1;
+    display: grid;
+    width: 100%;
+    background-color: $firstColor;
+}
+.B1 {
+    grid-area: B1;
+    display: grid;
+}
+.A2 {
+    grid-area: A2;
+    display: grid;
+    width: 100%;
+    background-color: $firstColor;
+}
+.B2 {
+    grid-area: B2;
+    display: grid;
+}
+.A3 {
+    grid-area: A3;
+    display: grid;
+    width: 100%;
+    background-color: $firstColor;
+}
+.B3 {
+    grid-area: B3;
+    display: grid;
+}
+.A4 {
+    grid-area: A4;
+    display: grid;
+    width: 100%;
+    background-color: $firstColor;
+}
+.B4 {
+    grid-area: B4;
+    display: grid;
+}
+.A5 {
+    grid-area: A5;
+    display: grid;
+    width: 100%;
+    background-color: $firstColor;
+}
+.B5 {
+    grid-area: B5;
+    display: grid;
+}
+.A6 {
+    grid-area: A6;
+    display: grid;
+    width: 100%;
+    background-color: $firstColor;
+}
+.B6 {
+    grid-area: B6;
+    display: grid;
+}
+.A7 {
+    grid-area: A7;
+    display: grid;
+    width: 100%;
+    background-color: $firstColor;
+}
+.B7 {
+    grid-area: B7;
+    display: grid;
+}
+.A8 {
+    grid-area: A8;
+    display: grid;
+    width: 100%;
+    background-color: $firstColor;
+}
+.B8 {
+    grid-area: B8;
+    display: grid;
+}
+
+.cuadritotexto {
+
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: $thirdColor;
+    color: $secondColor;
+}
+
+.full {
+    height: 85%;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

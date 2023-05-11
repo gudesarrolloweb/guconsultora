@@ -1,5 +1,24 @@
 @media screen and (max-width: 991px) {
+/*********************** NOSOTROS *********************/
+.cajitaquienessomos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "tqs";
+}
 
+.textoquienessomos {
+    display: grid;
+    grid-area: tqs;
+    background-color: $thirdColor;
+    margin: 1rem;
+    padding: 0.7rem;
+    border-radius: 2rem;
+}
+
+.imagenquienessomos {
+    display: none
+}
     /******************************* LISTA DE SERVICIOS *******************************/
     .listaservicios {
         justify-content: center;
@@ -213,6 +232,35 @@
 
 @media screen and (max-width: 575px) {
 
+    /****************************** INICIO *********************************/
+    .grilla {
+        background-color: $fifthColor;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "A1"
+        "B1"
+        "A2"
+        "B2"
+        "A3"
+        "B3"
+        "A4"
+        "B4"
+        "A5"
+        "B5"
+        "A6"
+        "B6"
+        "A7"
+        "B7"
+        "A8"
+        "B8"
+    
+    }
     /******************************* NAVBAR *******************************/
     header {
         display: grid;

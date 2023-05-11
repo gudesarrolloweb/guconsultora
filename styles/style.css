@@ -10,7 +10,7 @@
 .listaservicios .columnaservicios .tramitestexto,
 .listaservicios .columnaservicios .medicionestexto {
   padding: 1rem;
-  background-color: #ffffff;
+  background-color: #F0F4EF;
 }
 
 * {
@@ -21,15 +21,15 @@
 }
 *::-moz-selection {
   background-color: #000000;
-  color: rgba(174, 202, 201, 0.4392156863);
+  color: rgba(52, 73, 102, 0.3215686275);
 }
 *::selection {
   background-color: #000000;
-  color: rgba(174, 202, 201, 0.4392156863);
+  color: rgba(52, 73, 102, 0.3215686275);
 }
 
 header {
-  background-color: #000000;
+  background-color: #0D1821;
   display: flex;
   gap: 2rem;
   grid-gap: 2rem;
@@ -60,12 +60,12 @@ header .navbar .menu {
   width: 100%;
 }
 header .navbar .menu .menu_item a {
-  color: #ffffff;
+  color: #F0F4EF;
   text-decoration: none;
   font-size: larger;
 }
 header .navbar .menu .menu_item a:hover {
-  background: rgba(174, 202, 201, 0.4392156863);
+  background: rgba(52, 73, 102, 0.3215686275);
 }
 @keyframes slide-in-fwd-center {
   0% {
@@ -93,8 +93,139 @@ header .menu_item:nth-child(5) {
   animation-delay: 0.5s;
 }
 
+.iconospng {
+  height: 6rem;
+  filter: grayscale(100%);
+}
+
+.grilla {
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "A1 B1 B1 B1" "B2 B2 B2 A2" "A3 B3 B3 B3" "B4 B4 B4 A4" "A5 B5 B5 B5" "B6 B6 B6 A6" "A7 B7 B7 B7" "B8 B8 B8 A8";
+}
+
+.A1 {
+  grid-area: A1;
+  display: grid;
+  width: 100%;
+  background-color: rgba(52, 73, 102, 0.3215686275);
+}
+
+.B1 {
+  grid-area: B1;
+  display: grid;
+}
+
+.A2 {
+  grid-area: A2;
+  display: grid;
+  width: 100%;
+  background-color: rgba(52, 73, 102, 0.3215686275);
+}
+
+.B2 {
+  grid-area: B2;
+  display: grid;
+}
+
+.A3 {
+  grid-area: A3;
+  display: grid;
+  width: 100%;
+  background-color: rgba(52, 73, 102, 0.3215686275);
+}
+
+.B3 {
+  grid-area: B3;
+  display: grid;
+}
+
+.A4 {
+  grid-area: A4;
+  display: grid;
+  width: 100%;
+  background-color: rgba(52, 73, 102, 0.3215686275);
+}
+
+.B4 {
+  grid-area: B4;
+  display: grid;
+}
+
+.A5 {
+  grid-area: A5;
+  display: grid;
+  width: 100%;
+  background-color: rgba(52, 73, 102, 0.3215686275);
+}
+
+.B5 {
+  grid-area: B5;
+  display: grid;
+}
+
+.A6 {
+  grid-area: A6;
+  display: grid;
+  width: 100%;
+  background-color: rgba(52, 73, 102, 0.3215686275);
+}
+
+.B6 {
+  grid-area: B6;
+  display: grid;
+}
+
+.A7 {
+  grid-area: A7;
+  display: grid;
+  width: 100%;
+  background-color: rgba(52, 73, 102, 0.3215686275);
+}
+
+.B7 {
+  grid-area: B7;
+  display: grid;
+}
+
+.A8 {
+  grid-area: A8;
+  display: grid;
+  width: 100%;
+  background-color: rgba(52, 73, 102, 0.3215686275);
+}
+
+.B8 {
+  grid-area: B8;
+  display: grid;
+}
+
+.cuadritotexto {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: #000000;
+  color: #F0F4EF;
+}
+
+.full {
+  height: 85%;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
-  background-color: rgba(174, 202, 201, 0.4392156863);
+  background-color: rgba(52, 73, 102, 0.3215686275);
   background-repeat: unset;
 }
 body .titulogu {
@@ -116,7 +247,7 @@ body .titulogu .textogusyh {
   margin-right: auto;
 }
 body .fondoblancotitulo {
-  background-color: #ffffff;
+  background-color: #F0F4EF;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -137,14 +268,53 @@ body .misionvision {
 }
 
 footer {
-  background-color: #000000;
+  background-color: #0D1821;
 }
 footer .row {
   --bs-gutter-x: 0;
   --bs-gutter-y: 0;
 }
 footer .row .pie :hover {
-  background: rgba(174, 202, 201, 0.4392156863);
+  background: rgba(52, 73, 102, 0.3215686275);
+}
+
+.textogusyh {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.fondonegro {
+  background-color: #000000;
+  border-radius: 2rem;
+}
+
+.estilotextoblanco {
+  color: #F0F4EF;
+}
+
+.cajitaquienessomos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "tqs tqs iqs";
+}
+
+.textoquienessomos {
+  display: grid;
+  grid-area: tqs;
+  background-color: #000000;
+  margin: 1rem;
+  padding: 0.7rem;
+  border-radius: 2rem;
+}
+
+.imagenquienessomos {
+  display: grid;
+  grid-area: iqs;
+  margin: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0.7rem;
+  border-radius: 2rem;
 }
 
 .listaservicios {
@@ -167,7 +337,7 @@ footer .row .pie :hover {
 .listaservicios .columnaservicios .consultoriatecnica .estilotextoblanco,
 .listaservicios .columnaservicios .tramitesygestiones .estilotextoblanco,
 .listaservicios .columnaservicios .medicionesambientales .estilotextoblanco {
-  color: #ffffff;
+  color: #F0F4EF;
 }
 .listaservicios .columnaservicios .consultoriatexto .itemslista,
 .listaservicios .columnaservicios .tramitestexto .itemslista,
@@ -193,7 +363,7 @@ footer .row .pie :hover {
   padding: 4rem;
 }
 .galeria .galeriatexto .estilotextoblanco {
-  color: #ffffff;
+  color: #F0F4EF;
 }
 .galeria .galeriavideo {
   display: grid;
@@ -218,7 +388,8 @@ footer .row .pie :hover {
 }
 
 .textocontacto {
-  color: #ffffff;
+  color: #F0F4EF;
+  border-radius: 2rem;
   padding: 1rem;
   background-color: #000000;
 }
@@ -228,6 +399,24 @@ footer .row .pie :hover {
 }
 
 @media screen and (max-width: 991px) {
+  /*********************** NOSOTROS *********************/
+  .cajitaquienessomos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "tqs";
+  }
+  .textoquienessomos {
+    display: grid;
+    grid-area: tqs;
+    background-color: #000000;
+    margin: 1rem;
+    padding: 0.7rem;
+    border-radius: 2rem;
+  }
+  .imagenquienessomos {
+    display: none;
+  }
   /******************************* LISTA DE SERVICIOS *******************************/
   .listaservicios {
     justify-content: center;
@@ -255,7 +444,7 @@ footer .row .pie :hover {
     align-content: center;
   }
   .listaservicios .columnaservicios .consultoriatexto {
-    border-left: 0.1rem solid #ffffff;
+    border-left: 0.1rem solid #F0F4EF;
     grid-area: consultoriatexto;
     display: grid;
   }
@@ -268,7 +457,7 @@ footer .row .pie :hover {
     align-content: center;
   }
   .listaservicios .columnaservicios .tramitestexto {
-    border-left: 0.1rem solid #ffffff;
+    border-left: 0.1rem solid #F0F4EF;
     grid-area: tramitestexto;
     display: grid;
   }
@@ -281,7 +470,7 @@ footer .row .pie :hover {
     align-content: center;
   }
   .listaservicios .columnaservicios .medicionestexto {
-    border-left: 0.1rem solid #ffffff;
+    border-left: 0.1rem solid #F0F4EF;
     grid-area: medicionestexto;
     display: grid;
   }
@@ -342,7 +531,7 @@ footer .row .pie :hover {
     align-content: center;
   }
   .listaservicios .columnaservicios .consultoriatexto {
-    border-left: 0.1rem solid #ffffff;
+    border-left: 0.1rem solid #F0F4EF;
     grid-area: consultoriatexto;
     display: grid;
   }
@@ -355,7 +544,7 @@ footer .row .pie :hover {
     align-content: center;
   }
   .listaservicios .columnaservicios .tramitestexto {
-    border-left: 0.1rem solid #ffffff;
+    border-left: 0.1rem solid #F0F4EF;
     grid-area: tramitestexto;
     display: grid;
   }
@@ -368,7 +557,7 @@ footer .row .pie :hover {
     align-content: center;
   }
   .listaservicios .columnaservicios .medicionestexto {
-    border-left: 0.1rem solid #ffffff;
+    border-left: 0.1rem solid #F0F4EF;
     grid-area: medicionestexto;
     display: grid;
   }
@@ -402,6 +591,18 @@ footer .row .pie :hover {
   }
 }
 @media screen and (max-width: 575px) {
+  /****************************** INICIO *********************************/
+  .grilla {
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "A1" "B1" "A2" "B2" "A3" "B3" "A4" "B4" "A5" "B5" "A6" "B6" "A7" "B7" "A8" "B8";
+  }
   /******************************* NAVBAR *******************************/
   header {
     display: grid;
