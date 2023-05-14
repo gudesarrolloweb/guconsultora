@@ -1,4 +1,5 @@
 .galeria {
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
@@ -6,6 +7,7 @@
         "mqtexto" "mqvideo";
 
     .galeriatexto {
+        border-radius: 2rem;
         display: grid;
         justify-items: center;
         align-items: center;

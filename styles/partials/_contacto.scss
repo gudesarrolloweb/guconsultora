@@ -1,10 +1,24 @@
-.textocontacto {
-    color: $secondColor;
-    border-radius: 2rem;
+.formulariocontacto {
     padding: 1rem;
-    background-color: $thirdColor;
+    .textocontacto {
+        color: $secondColor;
+        border-radius: 2rem;
+        padding: 1rem;
+        background-color: $thirdColor;
+    }
+    .form-floating {
+        margin-bottom: 0.5rem;
+        .nombre, .email, .mensaje {
+            margin-right: 1rem;
+        }
+    }
 }
 
-.mapaoficina {
-    max-width: 100%;
+.mapaubicacion {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    .mapaoficina {
+        max-width: 100%;
+    }
 }

@@ -93,128 +93,23 @@ header .menu_item:nth-child(5) {
   animation-delay: 0.5s;
 }
 
-.iconospng {
-  height: 6rem;
-  filter: grayscale(100%);
-}
-
-.grilla {
-  background-color: #ffffff;
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
-  align-content: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: "A1 B1 B1 B1" "B2 B2 B2 A2" "A3 B3 B3 B3" "B4 B4 B4 A4" "A5 B5 B5 B5" "B6 B6 B6 A6" "A7 B7 B7 B7" "B8 B8 B8 A8";
-}
-.grilla .A1 {
-  grid-area: A1;
-  display: grid;
-  width: 100%;
-  background-color: rgba(52, 73, 102, 0.3215686275);
-}
-.grilla .B1 {
-  grid-area: B1;
-  display: grid;
-}
-.grilla .A2 {
-  grid-area: A2;
-  display: grid;
-  width: 100%;
-  background-color: rgba(52, 73, 102, 0.3215686275);
-}
-.grilla .B2 {
-  grid-area: B2;
-  display: grid;
-}
-.grilla .A3 {
-  grid-area: A3;
-  display: grid;
-  width: 100%;
-  background-color: rgba(52, 73, 102, 0.3215686275);
-}
-.grilla .B3 {
-  grid-area: B3;
-  display: grid;
-}
-.grilla .A4 {
-  grid-area: A4;
-  display: grid;
-  width: 100%;
-  background-color: rgba(52, 73, 102, 0.3215686275);
-}
-.grilla .B4 {
-  grid-area: B4;
-  display: grid;
-}
-.grilla .A5 {
-  grid-area: A5;
-  display: grid;
-  width: 100%;
-  background-color: rgba(52, 73, 102, 0.3215686275);
-}
-.grilla .B5 {
-  grid-area: B5;
-  display: grid;
-}
-.grilla .A6 {
-  grid-area: A6;
-  display: grid;
-  width: 100%;
-  background-color: rgba(52, 73, 102, 0.3215686275);
-}
-.grilla .B6 {
-  grid-area: B6;
-  display: grid;
-}
-.grilla .A7 {
-  grid-area: A7;
-  display: grid;
-  width: 100%;
-  background-color: rgba(52, 73, 102, 0.3215686275);
-}
-.grilla .B7 {
-  grid-area: B7;
-  display: grid;
-}
-.grilla .A8 {
-  grid-area: A8;
-  display: grid;
-  width: 100%;
-  background-color: rgba(52, 73, 102, 0.3215686275);
-}
-.grilla .B8 {
-  grid-area: B8;
-  display: grid;
-}
-.grilla .full {
-  height: 85%;
-  padding: 1rem;
-  margin: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.grilla .cuadritotexto {
-  width: 100%;
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  background-color: #000000;
-  color: #F0F4EF;
-}
-
 body {
   background-color: rgba(52, 73, 102, 0.3215686275);
   background-repeat: unset;
+}
+body .fondoblancotitulo {
+  background-color: #F0F4EF;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 body .titulogu {
   display: block;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+body .titulogu .tituloppal {
+  font-size: 2.5rem;
 }
 body .titulogu p {
   margin-top: 0;
@@ -228,12 +123,123 @@ body .titulogu .textogusyh {
   margin-left: auto;
   margin-right: auto;
 }
-body .fondoblancotitulo {
-  background-color: #F0F4EF;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+body .grilla {
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "A1 B1 B1 B1" "B2 B2 B2 A2" "A3 B3 B3 B3" "B4 B4 B4 A4" "A5 B5 B5 B5" "B6 B6 B6 A6" "A7 B7 B7 B7" "B8 B8 B8 A8";
 }
-body .fondoblancotitulo .logoguseguridadehigiene {
+body .grilla .iconospng {
+  height: 6rem;
+  filter: grayscale(100%);
+}
+body .grilla .A1 {
+  grid-area: A1;
+  display: grid;
+  width: 100%;
+  background-color: #ffffff;
+}
+body .grilla .B1 {
+  grid-area: B1;
+  display: grid;
+}
+body .grilla .A2 {
+  grid-area: A2;
+  display: grid;
+  width: 100%;
+  background-color: #ffffff;
+}
+body .grilla .B2 {
+  grid-area: B2;
+  display: grid;
+}
+body .grilla .A3 {
+  grid-area: A3;
+  display: grid;
+  width: 100%;
+  background-color: #ffffff;
+}
+body .grilla .B3 {
+  grid-area: B3;
+  display: grid;
+}
+body .grilla .A4 {
+  grid-area: A4;
+  display: grid;
+  width: 100%;
+  background-color: #ffffff;
+}
+body .grilla .B4 {
+  grid-area: B4;
+  display: grid;
+}
+body .grilla .A5 {
+  grid-area: A5;
+  display: grid;
+  width: 100%;
+  background-color: #ffffff;
+}
+body .grilla .B5 {
+  grid-area: B5;
+  display: grid;
+}
+body .grilla .A6 {
+  grid-area: A6;
+  display: grid;
+  width: 100%;
+  background-color: #ffffff;
+}
+body .grilla .B6 {
+  grid-area: B6;
+  display: grid;
+}
+body .grilla .A7 {
+  grid-area: A7;
+  display: grid;
+  width: 100%;
+  background-color: #ffffff;
+}
+body .grilla .B7 {
+  grid-area: B7;
+  display: grid;
+}
+body .grilla .A8 {
+  grid-area: A8;
+  display: grid;
+  width: 100%;
+  background-color: #ffffff;
+}
+body .grilla .B8 {
+  grid-area: B8;
+  display: grid;
+}
+body .grilla .full {
+  height: 85%;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .grilla .cuadritotexto {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: #000000;
+  color: #F0F4EF;
+}
+body .grilla .cuadritotexto .tituloppal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+}
+body .logoguseguridadehigiene {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -241,7 +247,7 @@ body .fondoblancotitulo .logoguseguridadehigiene {
   margin-bottom: 1rem;
   height: 17rem;
 }
-body .fondoblancotitulo .fondonegro {
+body .fondonegro {
   background-color: #000000;
 }
 body .misionvision {
@@ -261,16 +267,17 @@ footer .row .pie :hover {
 }
 
 .cajitaquienessomos {
+  padding: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "tqs tqs iqs";
 }
 .cajitaquienessomos .textoquienessomos {
+  padding-left: 1rem;
+  padding-right: 1rem;
   display: grid;
   grid-area: tqs;
   background-color: #000000;
-  margin: 1rem;
-  padding: 0.7rem;
   border-radius: 2rem;
 }
 .cajitaquienessomos .textoquienessomos .textogusyh {
@@ -287,21 +294,24 @@ footer .row .pie :hover {
 .cajitaquienessomos .imagenquienessomos {
   display: grid;
   grid-area: iqs;
-  margin: 1rem;
   margin-right: auto;
   margin-left: auto;
-  padding: 0.7rem;
   border-radius: 2rem;
 }
 
 .listaservicios {
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
 }
 .listaservicios .columnaservicios {
   margin-left: 1.2rem;
   margin-right: 1.2rem;
   width: 33.333333333%;
+}
+.listaservicios .columnaservicios .consultoriatecnica .tituloppal,
+.listaservicios .columnaservicios .tramitesygestiones .tituloppal,
+.listaservicios .columnaservicios .medicionesambientales .tituloppal {
+  font-size: 2.5rem;
 }
 .listaservicios .columnaservicios .consultoriatecnica .centrar,
 .listaservicios .columnaservicios .tramitesygestiones .centrar,
@@ -329,6 +339,7 @@ footer .row .pie :hover {
   grid-template-areas: "mqtexto" "mqvideo";
 }
 .galeria .galeriatexto {
+  border-radius: 2rem;
   display: grid;
   justify-items: center;
   align-items: center;
@@ -364,14 +375,28 @@ footer .row .pie :hover {
   margin-left: auto;
 }
 
-.textocontacto {
+.formulariocontacto {
+  padding: 1rem;
+}
+.formulariocontacto .textocontacto {
   color: #F0F4EF;
   border-radius: 2rem;
   padding: 1rem;
   background-color: #000000;
 }
+.formulariocontacto .form-floating {
+  margin-bottom: 0.5rem;
+}
+.formulariocontacto .form-floating .nombre, .formulariocontacto .form-floating .email, .formulariocontacto .form-floating .mensaje {
+  margin-right: 1rem;
+}
 
-.mapaoficina {
+.mapaubicacion {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.mapaubicacion .mapaoficina {
   max-width: 100%;
 }
 
@@ -569,15 +594,10 @@ footer .row .pie :hover {
 }
 @media screen and (max-width: 575px) {
   /****************************** INICIO *********************************/
-  .grilla {
-    background-color: #ffffff;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
+  body .grilla {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "A1" "B1" "A2" "B2" "A3" "B3" "A4" "B4" "A5" "B5" "A6" "B6" "A7" "B7" "A8" "B8";
   }
   /******************************* NAVBAR *******************************/

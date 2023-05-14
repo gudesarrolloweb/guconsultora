@@ -1,15 +1,17 @@
 .cajitaquienessomos {
+    padding: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "tqs tqs iqs";
 
     .textoquienessomos {
+        padding-left: 1rem;
+        padding-right: 1rem;
         display: grid;
         grid-area: tqs;
         background-color: $thirdColor;
-        margin: 1rem;
-        padding: 0.7rem;
         border-radius: 2rem;
+        
         .textogusyh {
             display: flex;
             margin-top: 1.5rem;
@@ -17,7 +19,7 @@
     
         .estilotextoblanco {
             color: $secondColor;
-    
+
             .fondonegro {
                 background-color: $thirdColor;
                 border-radius: 2rem;
@@ -25,15 +27,11 @@
         }
     }
 
-    
-
     .imagenquienessomos {
         display: grid;
         grid-area: iqs;
-        margin: 1rem;
         margin-right: auto;
         margin-left: auto;
-        padding: 0.7rem;
         border-radius: 2rem;
     }
 

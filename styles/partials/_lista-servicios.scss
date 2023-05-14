@@ -1,5 +1,5 @@
 .listaservicios {
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
 
     .columnaservicios {
@@ -11,6 +11,10 @@
         .tramitesygestiones,
         .medicionesambientales {
             @extend %listitatitulo;
+
+            .tituloppal {
+                font-size: 2.5rem;
+            }
 
             .centrar {
                 display: flex;
