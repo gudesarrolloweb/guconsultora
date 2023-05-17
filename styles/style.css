@@ -565,6 +565,17 @@ footer .row .pie :hover {
   background: #014e01;
 }
 
+/***************************Primeros auxilios*********************/
+/***************************Primeros auxilios*********************/
+/***************botiquin************/
+.color-select #botiquinblanco {
+  background: #ffffff;
+}
+
+.color-select #botiquinmarron {
+  background: #a52a2a;
+}
+
 /*************COLORES************/
 /*************COLORES************/
 /*************COLORES************/

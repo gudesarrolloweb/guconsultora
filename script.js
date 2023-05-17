@@ -1,4 +1,3 @@
-
 /***************************Calzado de Seguridad*********************/
 /***************************Calzado de Seguridad*********************/
 /**********zapato ombu ozono*********/
@@ -106,4 +105,17 @@ bcnegroBtn.onclick = function () {
 }
 bcverdeBtn.onclick = function () {
     bombachadecampo.src = "../img/bombacha de campo verde.png";
+}
+
+/***************************Primeros auxilios*********************/
+/***************botiquin************/
+let botiquinblancoBtn = document.getElementById("botiquinblanco");
+let botiquinmarronBtn = document.getElementById("botiquinmarron");
+let botiquin = document.getElementById("botiquin");
+
+botiquinblancoBtn.onclick = function () {
+    zapatoombuozono.src = "../img/primero auxilios botiquin metalico.jpg" ;
+}
+botiquinmarronBtn.onclick = function () {
+    botiquin.src = "../img/primero auxilios botiquin madera.jpg";
 }
