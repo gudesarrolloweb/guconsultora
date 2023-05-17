@@ -379,6 +379,20 @@ footer .row .pie :hover {
   margin-left: auto;
 }
 
+.cuadroscroll {
+  margin-bottom: 1rem;
+}
+.cuadroscroll .scrolltext {
+  list-style: none;
+  height: 180px;
+  border: 1px solid #ddd;
+  background: #f1f1f1;
+  overflow-y: scroll;
+}
+.cuadroscroll .scrolltext .textolistita {
+  padding: 0.3rem;
+}
+
 .dimensionespantalones {
   height: 250px;
   width: 150px;
@@ -543,10 +557,10 @@ footer .row .pie :hover {
   background: #014e01;
 }
 
-/*************************/
-/*************************/
-/*************************/
-/*************************/
+/*************COLORES************/
+/*************COLORES************/
+/*************COLORES************/
+/*************COLORES************/
 .color-select #negro {
   background: #333;
 }
@@ -591,6 +605,10 @@ footer .row .pie :hover {
   background: #2eff7e;
 }
 
+/*************COLORES************/
+/*************COLORES************/
+/*************COLORES************/
+/*************COLORES************/
 @media screen and (max-width: 991px) {
   /*********************** NOSOTROS *********************/
   .cajitaquienessomos {
