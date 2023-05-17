@@ -346,9 +346,13 @@ footer .row .pie :hover {
   justify-content: center;
   align-content: center;
   grid-area: mqtexto;
-  margin-right: 4.094rem;
-  margin-left: 4.094rem;
-  padding: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 6.094rem;
+  margin-left: 6.094rem;
+  padding-top: 1rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
 }
 .galeria .galeriatexto .estilotextoblanco {
   color: #F0F4EF;
@@ -375,6 +379,36 @@ footer .row .pie :hover {
   margin-left: auto;
 }
 
+.dimensionespantalones {
+  height: 250px;
+  width: 150px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.dimensionesber {
+  margin-top: 3.1rem;
+  margin-bottom: 3.1rem;
+  height: 150px;
+  width: 150px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.dimensionesmameluco, .dimensionescamisa {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 220px;
+  width: 220px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.botonvolver {
+  margin-right: 3rem;
+  padding-top: 1rem;
+}
+
 .formulariocontacto {
   padding: 1rem;
 }
@@ -398,6 +432,163 @@ footer .row .pie :hover {
 }
 .mapaubicacion .mapaoficina {
   max-width: 100%;
+}
+
+.color-select {
+  background-color: #c2c2c2;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.color-select div {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+/***************************Calzado de Seguridad*********************/
+/***************************Calzado de Seguridad*********************/
+/*******zapato ozono*******/
+.color-select #zoonegro {
+  background: #333;
+}
+
+.color-select #zoomarron {
+  background: #a52a2a;
+}
+
+/*******zapatilla sneaker*******/
+.color-select #zosnegro {
+  background: #333;
+}
+
+.color-select #zosmarron {
+  background: #a52a2a;
+}
+
+.color-select #zosgris {
+  background: #808080;
+}
+
+/*******zapatilla kryton*******/
+.color-select #zoknegro {
+  background: #333;
+}
+
+.color-select #zokazul {
+  background: #001a57;
+}
+
+/***********botin ozono*********/
+.color-select #boonegro {
+  background: #333;
+}
+
+.color-select #boomarron {
+  background: #a52a2a;
+}
+
+.color-select #booblanco {
+  background: #ffffff;
+}
+
+/***********botin ombu sneaker*********/
+.color-select #bosmarron {
+  background: #a52a2a;
+}
+
+.color-select #bosgris {
+  background: #808080;
+}
+
+/***********botin ombu krypton************/
+.color-select #boknegro {
+  background: #333;
+}
+
+.color-select #bokazul {
+  background: #001a57;
+}
+
+/***************************Indumentaria*********************/
+/***************************Indumentaria*********************/
+/*************pantalon cargo***********/
+.color-select #pcbeige {
+  background: #e0e094;
+}
+
+.color-select #pcnegro {
+  background: #333;
+}
+
+.color-select #pcazul {
+  background: #001a57;
+}
+
+/***************bombacha de campo************/
+.color-select #bcbeige {
+  background: #e0e094;
+}
+
+.color-select #bcnegro {
+  background: #333;
+}
+
+.color-select #bcverde {
+  background: #014e01;
+}
+
+/*************************/
+/*************************/
+/*************************/
+/*************************/
+.color-select #negro {
+  background: #333;
+}
+
+.color-select #marron {
+  background: #a52a2a;
+}
+
+.color-select #beige {
+  background: #e0e094;
+}
+
+.color-select #azul {
+  background: #001a57;
+}
+
+.color-select #verde {
+  background: #014e01;
+}
+
+.color-select #blanco {
+  background: #ffffff;
+}
+
+.color-select #gris {
+  background: #808080;
+}
+
+.color-select #rojo {
+  background: #ff0000;
+}
+
+.color-select #naranja {
+  background: #f08800;
+}
+
+.color-select #amarillo {
+  background: #fffb00;
+}
+
+.color-select #fotoluminico {
+  background: #2eff7e;
 }
 
 @media screen and (max-width: 991px) {
@@ -484,6 +675,7 @@ footer .row .pie :hover {
   .galeria .galeriatexto {
     margin-right: 6.25rem;
     margin-left: 6.25rem;
+    padding: 2rem;
   }
   .galeria .galeriavideo {
     margin-right: auto;
