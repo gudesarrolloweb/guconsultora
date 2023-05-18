@@ -582,6 +582,83 @@ footer .row .pie :hover {
   background: #014e01;
 }
 
+/************Camisa*************/
+.color-select #cazul {
+  background: #001a57;
+}
+
+.color-select #cbeige {
+  background: #e0e094;
+}
+
+/***************************Protecciones*********************/
+/***************************Protecciones*********************/
+/***************Casco************/
+.color-select #cascoblanco {
+  background: #ffffff;
+}
+
+.color-select #cascorojo {
+  background: #ff0000;
+}
+
+.color-select #cascoamarillo {
+  background: #fffb00;
+}
+
+/****************auditivo****************/
+.color-select #auditivonegro {
+  background: #333;
+}
+
+.color-select #auditivoverde {
+  background: #014e01;
+}
+
+.color-select #auditivonaranja {
+  background: #f08800;
+}
+
+/**************guantes****************/
+.color-select #guantenegro {
+  background: #333;
+}
+
+.color-select #guanterojo {
+  background: #ff0000;
+}
+
+.color-select #guanteverde {
+  background: #014e01;
+}
+
+/***********facial***********/
+.color-select #facialblanco {
+  background: #ffffff;
+}
+
+.color-select #facialnegro {
+  background: #333;
+}
+
+/*************olcular**********/
+.color-select #ocularblanco {
+  background: #ffffff;
+}
+
+.color-select #ocularnegro {
+  background: #333;
+}
+
+/***********respiratoria*******/
+.color-select #respiratorianegro {
+  background: #333;
+}
+
+.color-select #respiratoriagris {
+  background: #808080;
+}
+
 /***************************Primeros auxilios*********************/
 /***************************Primeros auxilios*********************/
 /***************botiquin************/
@@ -635,10 +712,6 @@ footer .row .pie :hover {
 
 .color-select #amarillo {
   background: #fffb00;
-}
-
-.color-select #fotoluminico {
-  background: #2eff7e;
 }
 
 /*************COLORES************/

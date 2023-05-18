@@ -1,5 +1,3 @@
-/***************************Calzado de Seguridad*********************/
-/***************************Calzado de Seguridad*********************/
 /**********zapato ombu ozono*********/
 let zoonegroBtn = document.getElementById("zoonegro");
 let zoomarronBtn = document.getElementById("zoomarron");
@@ -73,49 +71,4 @@ boknegroBtn.onclick = function () {
 }
 bokazulBtn.onclick = function () {
     botinombukrypton.src = "../img/ombu botín krypton azul marino.jpg";
-}
-/**************************Indumentaria*******************************/
-/**************************Indumentaria*******************************/
-/*************Pantalon Cargo*************/
-let pcbeigeBtn = document.getElementById("pcbeige");
-let pcnegroBtn = document.getElementById("pcnegro");
-let pcazulBtn = document.getElementById("pcazul");
-let pantaloncargo = document.getElementById("pantaloncargo");
-
-pcbeigeBtn.onclick = function () {
-    pantaloncargo.src = "../img/pantalon cargo beige.png" ;
-}
-pcnegroBtn.onclick = function () {
-    pantaloncargo.src = "../img/pantalon cargo negro.png";
-}
-pcazulBtn.onclick = function () {
-    pantaloncargo.src = "../img/pantalon cargo azul.png";
-}
-/*************Bombacha de campo*************/
-let bcbeigeBtn = document.getElementById("bcbeige");
-let bcnegroBtn = document.getElementById("bcnegro");
-let bcverdeBtn = document.getElementById("bcverde");
-let bombachadecampo = document.getElementById("bombachadecampo");
-
-bcbeigeBtn.onclick = function () {
-    bombachadecampo.src = "../img/bombacha de campo beige.png" ;
-}
-bcnegroBtn.onclick = function () {
-    bombachadecampo.src = "../img/bombacha de campo negro.png" ;
-}
-bcverdeBtn.onclick = function () {
-    bombachadecampo.src = "../img/bombacha de campo verde.png";
-}
-
-/***************************Primeros auxilios*********************/
-/***************botiquin************/
-let botiquinblancoBtn = document.getElementById("botiquinblanco");
-let botiquinmarronBtn = document.getElementById("botiquinmarron");
-let botiquin = document.getElementById("botiquin");
-
-botiquinblancoBtn.onclick = function () {
-    zapatoombuozono.src = "../img/primero auxilios botiquin metalico.jpg" ;
-}
-botiquinmarronBtn.onclick = function () {
-    botiquin.src = "../img/primero auxilios botiquin madera.jpg";
 }
