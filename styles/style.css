@@ -13,6 +13,12 @@
   background-color: #F0F4EF;
 }
 
+body .fondoblancotexto {
+  background-color: #F0F4EF;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -20,12 +26,12 @@
   font-family: "Nunito", sans-serif;
 }
 *::-moz-selection {
-  background-color: #000000;
-  color: rgba(52, 73, 102, 0.3215686275);
+  background-color: #001a57;
+  color: #ffffff;
 }
 *::selection {
-  background-color: #000000;
-  color: rgba(52, 73, 102, 0.3215686275);
+  background-color: #001a57;
+  color: #ffffff;
 }
 
 header {
@@ -102,6 +108,9 @@ body .fondoblancotitulo {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+body .fondoblancotexto {
+  border-radius: 1rem;
+}
 body .titulogu {
   display: block;
   text-align: center;
@@ -123,7 +132,8 @@ body .titulogu .textogusyh {
   margin-left: auto;
   margin-right: auto;
 }
-body .grilla {
+
+.grilla {
   justify-content: center;
   align-items: center;
   justify-items: center;
@@ -133,91 +143,91 @@ body .grilla {
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: "A1 B1 B1 B1" "B2 B2 B2 A2" "A3 B3 B3 B3" "B4 B4 B4 A4" "A5 B5 B5 B5" "B6 B6 B6 A6" "A7 B7 B7 B7" "B8 B8 B8 A8";
 }
-body .grilla .iconospng {
+.grilla .iconospng {
   height: 6rem;
   filter: grayscale(100%);
 }
-body .grilla .A1 {
+.grilla .A1 {
   grid-area: A1;
   display: grid;
   width: 100%;
   background-color: #ffffff;
 }
-body .grilla .B1 {
+.grilla .B1 {
   grid-area: B1;
   display: grid;
 }
-body .grilla .A2 {
+.grilla .A2 {
   grid-area: A2;
   display: grid;
   width: 100%;
   background-color: #ffffff;
 }
-body .grilla .B2 {
+.grilla .B2 {
   grid-area: B2;
   display: grid;
 }
-body .grilla .A3 {
+.grilla .A3 {
   grid-area: A3;
   display: grid;
   width: 100%;
   background-color: #ffffff;
 }
-body .grilla .B3 {
+.grilla .B3 {
   grid-area: B3;
   display: grid;
 }
-body .grilla .A4 {
+.grilla .A4 {
   grid-area: A4;
   display: grid;
   width: 100%;
   background-color: #ffffff;
 }
-body .grilla .B4 {
+.grilla .B4 {
   grid-area: B4;
   display: grid;
 }
-body .grilla .A5 {
+.grilla .A5 {
   grid-area: A5;
   display: grid;
   width: 100%;
   background-color: #ffffff;
 }
-body .grilla .B5 {
+.grilla .B5 {
   grid-area: B5;
   display: grid;
 }
-body .grilla .A6 {
+.grilla .A6 {
   grid-area: A6;
   display: grid;
   width: 100%;
   background-color: #ffffff;
 }
-body .grilla .B6 {
+.grilla .B6 {
   grid-area: B6;
   display: grid;
 }
-body .grilla .A7 {
+.grilla .A7 {
   grid-area: A7;
   display: grid;
   width: 100%;
   background-color: #ffffff;
 }
-body .grilla .B7 {
+.grilla .B7 {
   grid-area: B7;
   display: grid;
 }
-body .grilla .A8 {
+.grilla .A8 {
   grid-area: A8;
   display: grid;
   width: 100%;
   background-color: #ffffff;
 }
-body .grilla .B8 {
+.grilla .B8 {
   grid-area: B8;
   display: grid;
 }
-body .grilla .full {
+.grilla .full {
   height: 85%;
   padding: 1rem;
   margin: 1rem;
@@ -225,7 +235,7 @@ body .grilla .full {
   justify-content: center;
   align-items: center;
 }
-body .grilla .cuadritotexto {
+.grilla .cuadritotexto {
   width: 100%;
   display: flex;
   text-align: center;
@@ -233,13 +243,14 @@ body .grilla .cuadritotexto {
   background-color: #000000;
   color: #F0F4EF;
 }
-body .grilla .cuadritotexto .tituloppal {
+.grilla .cuadritotexto .tituloppal {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2.5rem;
 }
-body .logoguseguridadehigiene {
+
+.logoguseguridadehigiene {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -247,10 +258,12 @@ body .logoguseguridadehigiene {
   margin-bottom: 1rem;
   height: 17rem;
 }
-body .fondonegro {
+
+.fondonegro {
   background-color: #000000;
 }
-body .misionvision {
+
+.misionvision {
   margin-right: auto;
   margin-left: auto;
 }
@@ -291,11 +304,15 @@ footer .row .pie :hover {
   background-color: #000000;
   border-radius: 2rem;
 }
-.cajitaquienessomos .imagenquienessomos {
+.cajitaquienessomos .fotito {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.cajitaquienessomos .fotito .imagenquienessomos {
   display: grid;
   grid-area: iqs;
-  margin-right: auto;
-  margin-left: auto;
   border-radius: 2rem;
 }
 
@@ -644,7 +661,7 @@ footer .row .pie :hover {
     padding: 0.7rem;
     border-radius: 2rem;
   }
-  .cajitaquienessomos .imagenquienessomos {
+  .cajitaquienessomos .fotito .imagenquienessomos {
     display: none;
   }
   /******************************* LISTA DE SERVICIOS *******************************/
@@ -720,8 +737,6 @@ footer .row .pie :hover {
   }
   /******************************* MAPA Y DE CONTACTOS *******************************/
   .formulariocontacto {
-    margin-right: 1.25rem;
-    margin-left: 1.25rem;
     width: 100%;
   }
   .mapaubicacion {

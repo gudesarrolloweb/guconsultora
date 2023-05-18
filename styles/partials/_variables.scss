@@ -28,3 +28,9 @@ $fotoluminico: #2eff7e;
     padding: 1rem;
     background-color: $secondColor;
 }
+
+%fondoblancotitulo {
+    background-color: $secondColor;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+}

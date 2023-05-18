@@ -11,12 +11,12 @@
         grid-area: tqs;
         background-color: $thirdColor;
         border-radius: 2rem;
-        
+
         .textogusyh {
             display: flex;
             margin-top: 1.5rem;
         }
-    
+
         .estilotextoblanco {
             color: $secondColor;
 
@@ -27,12 +27,18 @@
         }
     }
 
-    .imagenquienessomos {
-        display: grid;
-        grid-area: iqs;
-        margin-right: auto;
+    .fotito {
+        display: flex;
         margin-left: auto;
-        border-radius: 2rem;
+        margin-right: auto;
+        align-items: center;
+
+        .imagenquienessomos {
+            display: grid;
+            grid-area: iqs;
+            border-radius: 2rem;
+        }
+
     }
 
 }

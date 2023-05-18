@@ -15,8 +15,11 @@
             padding: 0.7rem;
             border-radius: 2rem;
         }
-        .imagenquienessomos {
-            display: none;
+
+        .fotito {
+            .imagenquienessomos {
+                display: none;
+            }
         }
     }
 
@@ -107,8 +110,6 @@
 
     /******************************* MAPA Y DE CONTACTOS *******************************/
     .formulariocontacto {
-        margin-right: 1.25rem;
-        margin-left: 1.25rem;
         width: 100%;
     }
 
@@ -237,27 +238,27 @@
     /****************************** INICIO *********************************/
     body {
         .grilla {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas:
-            "A1"
-            "B1"       
-            "A2"
-            "B2"
-            "A3"
-            "B3"           
-            "A4"
-            "B4"
-            "A5"
-            "B5"            
-            "A6"
-            "B6"
-            "A7"
-            "B7"
-            "A8"
-            "B8";
-    }
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-areas:
+                "A1"
+                "B1"
+                "A2"
+                "B2"
+                "A3"
+                "B3"
+                "A4"
+                "B4"
+                "A5"
+                "B5"
+                "A6"
+                "B6"
+                "A7"
+                "B7"
+                "A8"
+                "B8";
+        }
     }
 
     /******************************* NAVBAR *******************************/
