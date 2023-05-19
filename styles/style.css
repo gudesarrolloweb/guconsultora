@@ -308,6 +308,7 @@ footer .row .pie :hover {
   border-radius: 2rem;
 }
 
+/******************************* LISTA *******************************/
 .listaservicios {
   padding: 1rem;
   display: flex;
@@ -336,6 +337,7 @@ footer .row .pie :hover {
   list-style: none;
 }
 
+/******************************* GALERIA *******************************/
 .galeria {
   display: grid;
   grid-template-columns: 1fr 1fr;
