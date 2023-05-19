@@ -111,6 +111,9 @@ body .fondoblancotitulo {
 body .fondoblancotexto {
   border-radius: 1rem;
 }
+body .fondoblancotexto .fondonegro {
+  background-color: #000000;
+}
 body .titulogu {
   display: block;
   text-align: center;
@@ -132,8 +135,7 @@ body .titulogu .textogusyh {
   margin-left: auto;
   margin-right: auto;
 }
-
-.grilla {
+body .grilla {
   justify-content: center;
   align-items: center;
   justify-items: center;
@@ -143,91 +145,91 @@ body .titulogu .textogusyh {
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: "A1 B1 B1 B1" "B2 B2 B2 A2" "A3 B3 B3 B3" "B4 B4 B4 A4" "A5 B5 B5 B5" "B6 B6 B6 A6" "A7 B7 B7 B7" "B8 B8 B8 A8";
 }
-.grilla .iconospng {
+body .grilla .iconospng {
   height: 6rem;
   filter: grayscale(100%);
 }
-.grilla .A1 {
+body .grilla .A1 {
   grid-area: A1;
   display: grid;
   width: 100%;
   background-color: #ffffff;
 }
-.grilla .B1 {
+body .grilla .B1 {
   grid-area: B1;
   display: grid;
 }
-.grilla .A2 {
+body .grilla .A2 {
   grid-area: A2;
   display: grid;
   width: 100%;
   background-color: #ffffff;
 }
-.grilla .B2 {
+body .grilla .B2 {
   grid-area: B2;
   display: grid;
 }
-.grilla .A3 {
+body .grilla .A3 {
   grid-area: A3;
   display: grid;
   width: 100%;
   background-color: #ffffff;
 }
-.grilla .B3 {
+body .grilla .B3 {
   grid-area: B3;
   display: grid;
 }
-.grilla .A4 {
+body .grilla .A4 {
   grid-area: A4;
   display: grid;
   width: 100%;
   background-color: #ffffff;
 }
-.grilla .B4 {
+body .grilla .B4 {
   grid-area: B4;
   display: grid;
 }
-.grilla .A5 {
+body .grilla .A5 {
   grid-area: A5;
   display: grid;
   width: 100%;
   background-color: #ffffff;
 }
-.grilla .B5 {
+body .grilla .B5 {
   grid-area: B5;
   display: grid;
 }
-.grilla .A6 {
+body .grilla .A6 {
   grid-area: A6;
   display: grid;
   width: 100%;
   background-color: #ffffff;
 }
-.grilla .B6 {
+body .grilla .B6 {
   grid-area: B6;
   display: grid;
 }
-.grilla .A7 {
+body .grilla .A7 {
   grid-area: A7;
   display: grid;
   width: 100%;
   background-color: #ffffff;
 }
-.grilla .B7 {
+body .grilla .B7 {
   grid-area: B7;
   display: grid;
 }
-.grilla .A8 {
+body .grilla .A8 {
   grid-area: A8;
   display: grid;
   width: 100%;
   background-color: #ffffff;
 }
-.grilla .B8 {
+body .grilla .B8 {
   grid-area: B8;
   display: grid;
 }
-.grilla .full {
+body .grilla .full {
   height: 85%;
   padding: 1rem;
   margin: 1rem;
@@ -235,7 +237,7 @@ body .titulogu .textogusyh {
   justify-content: center;
   align-items: center;
 }
-.grilla .cuadritotexto {
+body .grilla .cuadritotexto {
   width: 100%;
   display: flex;
   text-align: center;
@@ -243,29 +245,11 @@ body .titulogu .textogusyh {
   background-color: #000000;
   color: #F0F4EF;
 }
-.grilla .cuadritotexto .tituloppal {
+body .grilla .cuadritotexto .tituloppal {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2.5rem;
-}
-
-.logoguseguridadehigiene {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  height: 17rem;
-}
-
-.fondonegro {
-  background-color: #000000;
-}
-
-.misionvision {
-  margin-right: auto;
-  margin-left: auto;
 }
 
 footer {
@@ -310,6 +294,14 @@ footer .row .pie :hover {
   margin-right: auto;
   align-items: center;
 }
+.cajitaquienessomos .fotito .logoguseguridadehigiene {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 17rem;
+}
 .cajitaquienessomos .fotito .imagenquienessomos {
   display: grid;
   grid-area: iqs;
@@ -324,11 +316,6 @@ footer .row .pie :hover {
   margin-left: 1.2rem;
   margin-right: 1.2rem;
   width: 33.333333333%;
-}
-.listaservicios .columnaservicios .consultoriatecnica .tituloppal,
-.listaservicios .columnaservicios .tramitesygestiones .tituloppal,
-.listaservicios .columnaservicios .medicionesambientales .tituloppal {
-  font-size: 2.5rem;
 }
 .listaservicios .columnaservicios .consultoriatecnica .centrar,
 .listaservicios .columnaservicios .tramitesygestiones .centrar,
@@ -426,7 +413,7 @@ footer .row .pie :hover {
   margin-left: auto;
 }
 
-.dimensionesmameluco, .dimensionescamisa, .dimensioncarteleria, .dimensionlimitador {
+.dimensionescamisa, .dimensionesmameluco, .dimensionlimitador {
   margin-top: 1rem;
   margin-bottom: 1rem;
   height: 220px;
@@ -439,6 +426,14 @@ footer .row .pie :hover {
   margin-top: 1rem;
   margin-bottom: 1rem;
   height: 252px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.dimensioncono, .dimensionmalla, .dimensioncarteleria {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 212px;
   margin-right: auto;
   margin-left: auto;
 }

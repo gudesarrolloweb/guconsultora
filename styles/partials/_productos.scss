@@ -5,6 +5,7 @@
 }
 .cuadroscroll {
     margin-bottom: 1rem;
+
     .scrolltext {
         list-style: none;
         height: 180px;
@@ -34,7 +35,7 @@
     margin-left: auto;
 }
 
-.dimensionesmameluco, .dimensionescamisa, .dimensioncarteleria,.dimensionlimitador {
+.dimensionescamisa, .dimensionesmameluco, .dimensionlimitador {
     margin-top: 1rem;
     margin-bottom: 1rem;
     height: 220px;
@@ -42,10 +43,19 @@
     margin-right: auto;
     margin-left: auto;
 }
+
 .dimensionesmasfacial {
     margin-top: 1rem;
     margin-bottom: 1rem;
     height: 252px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.dimensioncono, .dimensionmalla, .dimensioncarteleria
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 212px;
     margin-right: auto;
     margin-left: auto;
 }
